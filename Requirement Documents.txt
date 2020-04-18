@@ -1,0 +1,91 @@
+                                       ---- CAREER JOIN-----
+
+1- Directory structure for the project
+   -----------------------------------
+   (a) index
+   (b) Signin
+   (c) Signup
+   (d) home
+   (e) EmployerPage (post jobs)
+   (f) JobSeeker (built resumes & apply for job)
+
+2- Index page
+   ----------
+   heading
+   picture
+   two links(Signin,Signup)
+
+3- Signup page
+   -----------
+   three textboxes(Name,Email,Pass)
+   button ---> Signup
+   Link ---> Signin
+   Link ---> Signup with facebook
+
+4- Signin page
+   -----------
+   two textboxes(Email,Pass)
+   button ---> Home Page
+   link ---> Signup
+
+5- Home Page
+   ---------
+   heading
+   paragraph (discription)
+   two links (Employer page & JobSeeker page)
+   Make Dockerfile
+   Deployment & Service
+   Infrastructure repository
+   Run it on minikube
+
+6- Employeer Page
+   --------------
+   heading
+   paragraph (discription)
+   Company name ---> textbox
+   Position ---> checkbox
+   Job description ---> textarea 
+   Expriance ---> checkbox
+   Qualification ---> checkbox
+   Salary ---> textbox
+   address ---> textarea
+   date ---> input
+   button
+   make new image
+   update deployment 
+   put in repository
+   run it on minikube
+
+7- JobSeeker page
+   --------------
+   heading
+   paragraph (discription)
+   two links ---> (make resumes & apply for job)
+   
+   apply for job
+   -------------
+   textbox(Name,Email,NIC,Phone,Gender)
+   checkbox ---> Qualification
+   textarea ---> address
+   checkbox ---> Experiance 
+   dropdown ---> skills
+   input ---> photo
+   button
+   
+   make resume
+   -----------
+   textbox ---> name
+   textarea ---> address
+   input ---> email
+   input ---> portfolio
+   textarea ---> Career summary
+   checkbox ---> Experiance
+   textarea ---> skills
+   checkbox ---> Qualification
+   textarea ---> certification
+   textarea ---> achievements
+   button         
+   make new image
+   update deployment
+   put it in repository
+   run it on minikube
