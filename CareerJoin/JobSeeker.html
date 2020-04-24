@@ -6,6 +6,133 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Job Seeker Page</title>
 </head>
-<body>
+<body style="background-color: black">
+    <center>
+        <h1 style="color: white">Job Seeker Page</h1>
+        <p style="color: white">Here you can apply for job and make resumes</p>
+    </center>
+    <!--Apply for job form-->
+    <center><fieldset style="background-color: blue;width: 500px">
+        <legend style="color: white"><h2>APPLY FOR JOB</h2></legend>
+        <form action="#" method="POST">
+        <center><label for="Name" style="color: white">
+            Name <input type="text" placeholder="Name" required size="50"/>
+        </label></center>
+        <br/>
+        <center><label for="Email" style="color: white">
+            Email <input type="email" placeholder="Email" required size="50"/>
+        </label></center>
+        <br/>
+        <center><label for="NIC" style="color: white">
+            NIC <input type="text" placeholder="NIC" required size="50"/>
+        </label></center>
+        <br/>
+        <center><label for="Phone" style="color: white">
+            Phone <input type="text" placeholder="Phone" required size="50"/>
+        </label></center>
+        <br/>
+        <center><label for="Gender" style="color: white">
+            Gender<br/>
+            <input type="radio" name="Gender" value="Male"/>Male<br/>
+            <input type="radio" name="Gender" value="Female"/>Female<br/>
+        </label></center>
+        <br/>
+        <center><label for="Experiance" style="color: white">
+            Experiance<br/>
+            <input type="checkbox" name="Experiance" id="Ex1">Good<br/>
+            <input type="checkbox" name="Experiance" id="Ex2">Better<br/>
+            <input type="checkbox" name="Experiance" id="Ex1">Best<br/>
+        </label></center>
+        <br/>
+        <center><label for="Qualification" style="color: white">
+            Qualification<br/>
+            <input type="checkbox" name="Qualification" id="Q1">Matric<br/>
+            <input type="checkbox" name="Qualification" id="Q2">Inter<br/>
+            <input type="checkbox" name="Qualification" id="Q1">BCom<br/>
+        </label></center>
+        <br/>
+        <center><label for="Image" style="color: white">
+            Upload Image<br/><input type="file"/>
+        </label></center>
+        <br/>
+        <center><label for="Skills" style="color: white">
+           <select name="skills" id="sk" size="4" multiple>
+               <option value="C++">C++</option>
+               <option value="C#">C#</option>
+               <option value="React">React</option>
+               <option value="Java">Java</option>
+           </select>
+        </label></center>
+        <br/>
+        <center><label for="address" style="color: white">
+            Address<br/>
+            <textarea name="address" id="ads" cols="30" rows="10" required></textarea>
+        </label></center>
+        <br/>
+        <center><label for="button" style="color: white">
+            <input type="submit" value="apply" style="background-color: white;color:black">
+        </label></center>
+        </form>
+    </fieldset></center>
+    <br/><br/>
+    <!--Make resume form-->
+    <center><fieldset style="background-color: blue;width: 500px">
+        <legend style="color: white"><h2>MAKE RESUME</h2></legend>
+        <form action="#" method="POST">
+        <center><label for="Name" style="color: white">
+            Name <input type="text" placeholder="Name" required size="50"/>
+        </label></center>
+        <br/>
+        <center><label for="Email" style="color: white">
+            Email <input type="email" placeholder="Email" required size="50"/>
+        </label></center>
+        <br/>
+        <center><label for="Experiance" style="color: white">
+            Experiance<br/>
+            <input type="checkbox" name="Experiance" id="Ex1">Good<br/>
+            <input type="checkbox" name="Experiance" id="Ex2">Better<br/>
+            <input type="checkbox" name="Experiance" id="Ex1">Best<br/>
+        </label></center>
+        <br/>
+        <center><label for="Qualification" style="color: white">
+            Qualification<br/>
+            <input type="checkbox" name="Qualification" id="Q1">Matric<br/>
+            <input type="checkbox" name="Qualification" id="Q2">Inter<br/>
+            <input type="checkbox" name="Qualification" id="Q1">BCom<br/>
+        </label></center>
+        <br/>
+        <center><label for="Portfolio" style="color: white">
+            Portfolio<br/><input type="file"/>
+        </label></center>
+        <br/>
+        <center><label for="Skills" style="color: white">
+           <select name="skills" id="sk" size="4" multiple>
+               <option value="C++">C++</option>
+               <option value="C#">C#</option>
+               <option value="React">React</option>
+               <option value="Java">Java</option>
+           </select>
+        </label></center>
+        <br/>
+        <center><label for="address" style="color: white">
+            Address<br/>
+            <textarea name="address" id="ads" cols="30" rows="10" required></textarea>
+        </label></center>
+        <br/>
+        <center><label for="Certificates" style="color: white">
+            Address<br/>
+            <textarea name="Certificates" id="cer" cols="30" rows="10" required></textarea>
+        </label></center>
+        <br/>
+        <center><label for="Achievements" style="color: white">
+            Address<br/>
+            <textarea name="Achievements" id="ach" cols="30" rows="10" required></textarea>
+        </label></center>
+        <br/>
+        <center><label for="button" style="color: white">
+            <input type="submit" value="Resume" style="background-color: white;color:black">
+        </label></center>
+        </form>
+    </fieldset></center>
 </body>
 </html>
