@@ -4,6 +4,61 @@
     <title>Employer Page</title>
 </head>
 <body style="background-color: black">
-    
+    <center>
+    <div>
+    <h1 style="color: white">Employer Page</h1>
+    <p style="color: white">Here you can easily post jobs.</p>
+    </div>
+    </center>
+    <center><fieldset style="background-color: blue;width: 500px">
+        <legend style="color: white"><h2>POST JOB</h2></legend>
+        <form action="#" method="POST">
+        <center><label for="Company Name" style="color: white">
+            Company Name <input type="text" placeholder="Company Name" required size="50"/>
+        </label></center>
+        <br/>
+        <center><label for="Position" style="color: white">
+            Select Position<br/>
+            <input type="radio" name="Position" value="Manager"/>Manager<br/>
+            <input type="radio" name="Position" value="Employee"/>Employee<br/>
+        </label></center>
+        <br/>
+        <center><label for="discription" style="color: white">
+            Discription<br/>
+            <textarea name="discription" id="dis" cols="30" rows="10" required></textarea>
+        </label></center>
+        <br/>
+        <center><label for="Experiance" style="color: white">
+            Experiance<br/>
+            <input type="checkbox" name="Experiance" id="Ex1">Good<br/>
+            <input type="checkbox" name="Experiance" id="Ex2">Better<br/>
+            <input type="checkbox" name="Experiance" id="Ex1">Best<br/>
+        </label></center>
+        <br/>
+        <center><label for="Qualification" style="color: white">
+            Qualification<br/>
+            <input type="checkbox" name="Qualification" id="Q1">Matric<br/>
+            <input type="checkbox" name="Qualification" id="Q2">Inter<br/>
+            <input type="checkbox" name="Qualification" id="Q1">BCom<br/>
+        </label></center>
+        <br/>
+        <center><label for="Salary" style="color: white">
+            Salary<input type="text" placeholder="Salary" required size="50"/>
+        </label></center>
+        <br/>
+        <center><label for="address" style="color: white">
+            Address<br/>
+            <textarea name="address" id="ads" cols="30" rows="10" required></textarea>
+        </label></center>
+        <br/>
+        <center><label for="Salary" style="color: white">
+            Date<input type="date"/>
+        </label></center>
+        <br/>
+        <center><label for="Salary" style="color: white">
+            <input type="submit" value="Post" style="background-color: white;color:black">
+        </label></center>
+        </form>
+    </fieldset></center>
 </body>
 </html>
